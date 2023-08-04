@@ -1,0 +1,294 @@
+/* body part of the website */
+
+
+/* anchor elements of the website */
+a{
+  text-decoration: none !important;
+  color: #000 !important;
+}
+a:hover{
+  color: darkgrey !important;
+}
+
+
+/* header part of the website */
+.one-sec{
+  background: linear-gradient(#BFD9EE,#C0C0D3);
+  height: 785px;
+}
+.container-fluid{
+  padding: 0 5% !important;
+}
+.btn{
+  margin-right: 15px !important;
+}
+
+
+
+/* navbar section of website */
+.navbar{
+  padding-bottom: 3% !important;
+}
+.navbar-brand{
+  height: 150px;
+}
+
+
+
+/* heading part of header part */
+h1{
+  font-size: 3.5rem !important;
+  font-weight: normal!important;
+  line-height: 1.5 !important;
+}
+
+.log_btn{
+  background-color: #0554A6 !important;
+  color: #fff !important;
+}
+.log_btn:hover{
+  background-color: lightblue !important;
+}
+
+.reg_btn{
+  background-color: #03024D !important;
+  color: #fff !important;
+}
+.reg_btn:hover{
+  background-color: #0554A6 !important;
+}
+
+
+
+/* image of heading part */
+.sitting_boy{
+  height: 600px;
+  margin: -60px 0 0 0px !important;
+}
+
+
+
+/* About us section of the website */
+.content{
+  text-align: center;
+  padding: 2% 5%;
+}
+.side-photo{
+  height: 500px;
+  width: 500px;
+}
+.long_paragraphs{
+  font-size: 1.2rem;
+  font-weight: normal;
+  line-height: 2;
+}
+.all_sections{
+  padding: 5% 7% !important;
+}
+
+
+
+/* Recent Updates section of the website  */
+.recent_updates{
+  background-color: #04034E;
+  color: #fff;
+}
+.recent_updates:hover{
+  background-color: darkblue;
+
+}
+
+
+/* footer section of the website */
+.bottom-logo{
+  height: 150px;
+  width: 200px;
+}
+
+
+/* copyright section of the website */
+.socialicon_div{
+  display: flex;
+  justify-content: center;
+
+}
+.c-logo{
+  height: 50px;
+  width: 50px;
+  margin-left: 50px;
+}
+.copyright_div{
+  padding: 3% 5% !important;
+}
+.copy-right{
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+
+
+
+/* responsive code for small size laptop  */
+@media only screen and (min-width:993px) and (max-width:1024px){
+
+
+
+/* heading part of header part */
+h1{
+  font-size: 3rem !important;
+  font-weight: normal!important;
+  line-height: 1.5 !important;
+}
+
+
+
+/* image of heading part */
+.sitting_boy{
+  height: 500px;
+  margin: -60px 0 0 0 !important;
+}
+
+/* copyright section of the website */
+.c-logo{
+  margin-left: 20px;
+}
+.copyright_div{
+  padding: 3% !important;
+}
+
+
+}
+
+/* responsive code for tablet  */
+@media only screen and (min-width:576px) and (max-width:992px){
+
+
+  /* header part of the website */
+  .one-sec{
+    height: 500px;
+  }
+
+  /* heading part of header part */
+  h1{
+    font-size: 1.8rem !important;
+    font-weight: normal!important;
+    line-height: 1.5 !important;
+  }
+
+  /* image of heading part */
+  .sitting_boy{
+    height: 300px;
+    margin: -10px 0 0 -30px !important;
+  }
+
+
+  /* About us section of the website */
+  .side-photo{
+    height: 380px;
+    width: 380px;
+  }
+  .sidepic_div{
+    display: flex;
+    justify-content: center;
+
+  }
+  .long_paragraphs{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+
+  /* copyright section of the website */
+  .c-logo{
+    height: 40px;
+    width: 40px;
+    margin-left: 30px;
+  }
+  .copyright_div{
+    padding: 3% 1% !important;
+  }
+  .copy-right{
+    margin: 9% 1% 1%;
+    font-size: 0.8rem;
+    font-weight: 400;
+  }
+
+}
+
+/* responsive code for phone */
+@media only screen and (min-width:200px) and (max-width:575px){
+
+
+  /* navabar section */
+  .nav_btn{
+    display: none !important;
+
+  }
+
+  /* header part of the website */
+  .one-sec{
+    height: 700px;
+  }
+
+  /* heading part of header part */
+  h1{
+    font-size: 1.5rem !important;
+    font-weight: normal!important;
+    line-height: 1.5 !important;
+  }
+
+  /* image of heading part */
+
+  .mainpic_div{
+    display: flex;
+    justify-content: center;
+  }
+  .sitting_boy{
+    height: 300px;
+    margin: -10px 0 0 -30px !important;
+  }
+
+  h2{
+    font-size: 1rem !important;
+  }
+
+  /* About us section of the website */
+  .side-photo{
+    height: 300px;
+    width: 300px;
+  }
+  .about_side{
+    display: flex;
+    justify-content: center;
+
+  }
+  .long_paragraphs{
+    font-size: 1rem;
+    font-weight: normal;
+    line-height: 1.2;
+  }
+
+  /* Recent Updates section of the website  */
+  .recent_side{
+    display: flex;
+    justify-content: center;
+  }
+
+
+/* copyright section of the website */
+.c-logo{
+  height: 30px;
+  width: 30px;
+  margin-left: 10px;
+}
+.copyright_div{
+  padding: 3% 1% !important;
+}
+.copy-right{
+  margin: 9% 1%;
+  font-size: 0.8rem;
+  font-weight: 400;
+}
+
+
+}
